@@ -1,0 +1,162 @@
+/* RESET CSS */
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 'Open Sans', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+/*imagem da page */
+img{
+    max-width: 100%;
+}
+
+/* ul = LISTA ORDENADA, LIST-STYLE-TIPE TIA AS BOLINHAS DA LISTA*/
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size:16px;
+    color:blue;
+}
+
+p{
+    font-size: 1em;
+    color: #777;
+}
+
+/* CABEÇALHO */
+.cabecalho{
+    width: 100%;
+    /*largura do site 100%(de uma ponta a outra*/
+    float: left;
+    padding: 20px 6%;
+    background-color: #13c7ae;
+        /* desgrua o texto ou objetos das escostas*/
+}
+
+.logo{
+    width: 223px;
+    /*largura*/
+    height: 96px;
+    /*altura*/
+    float:left;
+    /*deixa o texto ou imagem flutuando em determinada direção*/
+    font-size: 0;
+    background-image: url(../img/InfObama__3_-removebg-preview.png);
+    /*"../" serve para procurar fora da pasta do css algum arquivo*/
+    /*cuidado com o tamanho/altura da imagem, regular no css para n ficar incorreto*/
+
+}
+
+
+.cabecalho form{
+    width: 30%;
+    float: right;
+    padding: 5px 5px 5px 5px;
+}
+
+.cabecalho form input[type="search"]{
+    width: 85%;
+    padding: 15px 10px 15px 10px;
+    border-radius: 15px 0 0 15px;
+    margin-top: 13%;/*move a margem do objeto, movendo o objeto em questão para cima ou para baixo, tendo a função de subir ou descer*/
+
+}
+
+.cabecalho button{
+    width: 15%;/*largura do item em questão*/
+    float: right;
+    background-color: #0cae98;
+    cursor: pointer;/* deixa o item clicavél*/
+    color: white;/* muda a cor do item*/
+    height: 46px; /*altura do item em questão*/
+    border-radius: 0 15px 15px 0; /*ajusta as bordas do item em expecífico*/ 
+    margin-top: 13%;
+}
+
+/*MENU "nav"*/
+
+.menu{
+    width: 100%;
+    float: right;
+    background-color: #111;
+    padding: 10px 8%; /*espaçamento interno*/ /*o houver pode s4er influenciado pelo padding, é importante lembrar de alinhas os dois, sempre deixar na mesma medida exe: paddin(20)= font-size(20)*/
+
+
+}
+.menu li{
+    padding:10px 2%;
+    margin: 12px;
+}
+
+.menu li a{
+    color: #868181;
+    margin: ;/*move a margem do objeto(com o objeto) para direita(right) ou esquerda(lefth) */
+    font-size: 15px; /*tamanho da fonte*/
+}
+
+.menu li a:hover{
+ /*"id" é como uma class porém se usa a # com o nome para editar apenas essa classe*/   
+ color: white;
+ font-size: 15px;
+ 
+}
+
+/*social-icons*/
+
+.social-icons{
+    float: right;
+    margin: 10px;
+}
+
+#face:hover{
+color:blue;
+}
+
+#tt:hover{
+    color: #13b9e2;
+}
+
+#google:hover{
+    color: rgb(196, 11, 11);
+}
+
+/* PRINCIPAL */
+.principal{
+    width: 100%;
+    float: left;
+    padding: 20px 8%;  
+}
+
+.sobre{
+    width: 70%;
+    float: left;
+    padding: 0 20px 0 20px;
+}
+
+.sobre h2{
+margin-bottom: 15px;
+}
+.sobre img{
+    width: 50%;
+    float: left;
+    border-radius: 5px;
+    margin: 0 15px 15px 0;
+}
+
+.sobre p{
+     text-align: justify; /*mantem um alinhamento tanto a diereita quanto na esquerda */
+}
